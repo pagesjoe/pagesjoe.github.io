@@ -1,0 +1,23 @@
+.order{
+    border: 1px solid black;
+    width: 700px;
+    margin: auto;    
+}
+.order-details{
+    background-color: #F0F2F2;
+    display: flex;
+    justify-content: space-around;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+.product img{
+    width: 120px;
+}
